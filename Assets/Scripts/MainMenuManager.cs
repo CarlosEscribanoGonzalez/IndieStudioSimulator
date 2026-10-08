@@ -51,7 +51,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void SetSpeedText(string text)
     {
-        speedText.text = $"Velocidad: x{text}";
+        speedText.text = $"Speed: x{text}";
     }
 
     public void ToggleCollisions(bool c)
