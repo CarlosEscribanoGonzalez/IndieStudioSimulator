@@ -27,13 +27,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7292760486478748483}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.38323966, w: 0.923649}
-  m_LocalPosition: {x: -0.0095, y: 0.0121, z: -0}
-  m_LocalScale: {x: 0.02765477, y: 0.045241315, z: 0.04524131}
+  m_LocalRotation: {x: 0.27099144, y: -0.6531185, z: 0.2709913, w: 0.6531184}
+  m_LocalPosition: {x: -0.009500026, y: 0.012099996, z: 0.0000000018626451}
+  m_LocalScale: {x: 0.04524131, y: 0.045241315, z: 0.02765477}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5764848510827593209}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45.069}
+  m_LocalEulerAnglesHint: {x: 45.069, y: -90, z: 0}
 --- !u!33 &1592907206084754729
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -59,6 +59,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,9 +85,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!328 &1731232871102913283
 VideoPlayer:
@@ -116,7 +123,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
